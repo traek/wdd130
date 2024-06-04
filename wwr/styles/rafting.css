@@ -76,6 +76,14 @@
     /* flex-flow: row; */
 }
 
+.adventure h1 {
+    position: absolute;
+}
+
+.adventure figure {
+    top: 0.25em;
+}
+
 .adventure img {
     top: 2em;
     max-height: 200px;
