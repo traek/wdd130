@@ -14,34 +14,38 @@
     </header>
     <main>
         <form>
-            <ol>
-                <li>
-                    <label for="q1">Question 1</label><br>
-                    <input type="text" id="q1" name="q1">        
-                </li>
-                <li>
-                    <label for="q2">Question 2</label><br>
-                    <input type="textarea" id="q2" name="q2" rows="4" placeholder="Please enter your answer here">
-                </li>
-                <li>
-                    <label for="q3">Question 3</label><br>
-                    <select id="q3" name="q3">
-                        <option value="" selected disabled>Choose One...</option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                    </select>        
-                </li>
-                <li>
-                    <label for="q4">Question 4</label><br>
-                    <input type="number" id="q4" name="q4">
-                </li>
-            </ol>
+            <div class="question">
+                <label for="q1">1. What does HTML stand for?</label><br>
+                <input type="text" id="q1" name="q1">    
+            </div>
+            <div class="question">
+                <label for="q2">2. Please write a valid CSS rule that centers and bolds all &lt;h1&gt; elements:</label><br>
+                <textarea id="q2" name="q2" rows="4" placeholder="Remember to include your selector!"></textarea>
+            </div>
+            <div class="question">
+                <label for="q3">3. Which word should be substituted for PLACEHOLDER to correctly load the CSS file located at 'styles/style.css'?</label><br>
+                <pre> &lt;link rel="PLACEHOLDER" href="styles/sytle.css"&gt; </pre>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One...</option>
+                    <option value="css">css</option>
+                    <option value="stylesheet">stylesheet</option>
+                    <option value="local-css">local-css</option>
+                </select>    
+            </div>
+            <div class="question">
+                <label for="q4">4. Given the below CSS code, what number should replace the '#' below to remove margins by default?</label><br>
+                <pre>
+* {
+    margin: #;
+}
+</pre>
+                <input type="number" id="q4" name="q4">    
+            </div>
             <button type="submit">Submit Quiz</button>
         </form>
     </main>
     <footer>
-        <p>&copy; 2024 | Come check out my <a href="https://github.com/traek/wdd130" target="_blank">Traek's WDD 130 GitHub Repo</a></p>
+        <p>&copy; 2024 | Come check out my <a href="https://github.com/traek/wdd130" target="_blank">WDD 130 GitHub Repo</a></p>
     </footer>
 </body>
 </html>
