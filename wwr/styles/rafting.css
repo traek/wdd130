@@ -43,9 +43,10 @@ header img {
     border-radius: 50%;
 }
 
-h2 {
+h1 {
     padding-top: 1em;
     padding-left: 1em;
+    text-align: center;
 }
 
 .company-info {
@@ -78,7 +79,7 @@ iframe {
     display: grid;
     position: relative;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: top;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -147,9 +148,9 @@ fieldset {
 }
 
 .question button {
-    color: white;
     padding: 0.5em;
     background-color: var(--secondary-color);
+    color: #fff;
     border: 1 var(--primary-color);
     text-transform: uppercase;
     border-radius: 0.5em;
