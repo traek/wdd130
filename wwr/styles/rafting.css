@@ -355,6 +355,10 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+nav a:active {
+    color: var(--nav-hover-link-color);
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
