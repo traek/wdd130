@@ -79,6 +79,12 @@ h1 {
     margin: 2em;
 }
 
+.split-box h2 {
+    padding: 1em;
+    grid-column: 1/3;
+    text-align: center;
+}
+
 .split-box img {
     width: 500px;
 }
@@ -245,6 +251,17 @@ fieldset {
     width: 175px;
     margin: 0.5rem;
     margin-left: 1rem;
+}
+
+.highlight {
+    font-size: 1.2em;
+}
+
+.hero button {
+    background-color: var(--accent2-color);
+    margin: 0.25em;
+    padding: 0.25em;
+    width: 100%;
 }
 
 .history {
